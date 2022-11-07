@@ -1,4 +1,5 @@
 ## VAD-V-ADJ-filtered.txt: 
+
 To formalize sentiment concepts, we employ the NRC Valence, Arousal, and Dominance (NRCVAD) lexicon (Mohammad, 2018), which provides
 manually annotated real-valued scores of valence, arousal, and dominance for 20,000 English words. We use the valence scores and convert them into the range from -1 (the most negative) to 1 (the most
 positive). We automatically select single words from the lexicon that are predominantly used as adjectives in the British National Corpus (BNC)5
@@ -9,5 +10,6 @@ populate the sentence templates to define the sentiment concepts as described in
 
 
 ## random_stopwords_tweets.txt:
+
 Acollection of raw tweets collected with stop words. As shown in [Sensitivity_2_sentiment.ipynb](https://github.com/IsarNejad/Procedural-Fairness-Sentiment/blob/main/Sensitivity_2_sentiment.ipynb) 
 we use the random tweets as 1) input examples of the classifier in the TCAV procedure 2) concept examples for non-coherent control concepts. 
